@@ -1,0 +1,15 @@
+# ASP.NET
+WebAPI/bin/
+WebAPI/obj/
+WebAPI/*.user
+WebAPI/*.suo
+WebAPI/.vs/
+
+# Angular
+api-angular/node_modules/
+api-angular/dist/
+api-angular/.angular/
+
+# General
+*.log
+*.DS_Store

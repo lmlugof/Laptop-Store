@@ -1,0 +1,11 @@
+<h2>Crear Laptop</h2>
+<form (submit)="saveChanges()" [formGroup]="form">
+    <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input [formControl]="form.controls.nombre" matInput/>
+    </mat-form-field>
+    <div>
+        <button type="submit" mat-flat-button>Guardar cambios</button>
+        <a mat-stroked-button routerLink="/products">Cancelar</a>
+    </div>
+</form>
